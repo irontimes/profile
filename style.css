@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  background-image: linear-gradient(to right, #9fa1a2, #6f86d6);
+
+}
+
+img {
+  width: 500px;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 36px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+  color: #2c3e50;
+  line-height: 1.2;
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+
+}
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  transition: letter-spacing 0.5s ease;
+}
+
+h3:hover {
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a {
+  color: #2c3e50;
+  text-decoration: none;
+  transition: color 0.3s;
+  padding-right: 36px;
+
+}
+
+.contact-button {
+  border-radius: 16px;
+  background-image: linear-gradient(to right, #9fa2a1, #415885);
+  padding: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transition: background-image 0.5s ease, box-shadow 0.5s ease; /* Add transition for slow hover effect */
+}
+
+.contact-button:hover {
+  background-image: linear-gradient(to right, #cccdcd, #6f77bf); /* Change gradient direction when hovering */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Increase box-shadow when hovering */
+}
+
+ul li a:hover {
+  color: #000000;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.image-stack {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.image-stack img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+p {
+  margin-top: 40px;
+  padding: 36px;
+  text-align: center;
+  background-image: linear-gradient(to right, #9fa1a2, #7997c2);
+  border-radius: 16px;
+}
+
+.border-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  width: 33.33%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.border-shadow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.vertical-spacing {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.name {
+  letter-spacing: 1px;
+  transition: letter-spacing 0.3s;
+}
+
+.name:hover {
+  letter-spacing: 3px;
+}
